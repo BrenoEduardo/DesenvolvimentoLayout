@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:fragment="modelo">
+
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+	crossorigin="anonymous">
+<title></title>
+<body class="d-flex flex-column min-vh-100">
+
+	<nav th:replace="fragments/Nav :: navbar"></nav>
+	<main>
+	<div class="row mx-md-n5">
+	<p class="col py-3 px-md-5 border bg-light">
+	A Picanha é um tipo de corte de carne bovina tipicamente brasileira. A origem do nome Picanha advém do tratamento talhante Italiano, nomeadamente do corte Picatta . Esta vara, chamada picana (em espanhol), possuía um ferrão na ponta e servia para picar o gado na parte posterior da sua região lombar. Com o passar do tempo esta região do animal passou a ser chamada picana e posteriormente picanha [1][2]. Recentemente, o aumento da variedade de cortes de carnes suínas originado de ações promovidas pelos suinucultores, fez surgir um novo corte para os admiradores deste tipo de carne, que recebeu o nome de picanha suína.
+	</p>
+	<p class="col py-3 px-md-5 border bg-light">
+	Esse corte está localizado na parte interior da coxa do boi, com fibras curtas e muito macio. O coxão mole é indicado para ensopados, picadinhos, strogonoff, bifes finos e escalopes.
+	</p>
+	</div>
+	</main>
+	<footer th:replace="fragments/rodape :: rodape"></footer>
+
+</body>
+</html>
